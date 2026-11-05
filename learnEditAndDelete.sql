@@ -15,6 +15,7 @@ update burgers set price = 500 where id = 1;
 -- 데이터 삭제
 -- DELETE FROM 테이블 명 where 검색조건
 delete from burgers where id = 4;
+delete from burgers where id = 6;
 
 -- 전체 테이블 삭제
 -- DROP TABLE 테이블 명
